@@ -1,0 +1,23 @@
+.intro__list {
+
+    align-self: start;
+    max-width: 690px;
+    min-height: 90px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+
+}
+
+.intro__list-phrase {
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}

@@ -1,0 +1,52 @@
+@import url(./__menu/header__menu.css);
+@import url(./__menu-item-link_active/header__menu-item-link_active.css);
+@import url(./__logo/header__logo.css);
+@import url(./__logo-image/header__logo-image.css);
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    margin: 0 auto 0;
+    min-height: 52px;
+    padding-top: 28px;
+    padding-top: 48px;
+    padding-left: 48px;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .header {
+        margin: 0 48px 0;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .header {
+        max-width: 928px;
+        min-height: 52px;
+        margin: 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        max-width: 720px;
+        padding-top: 52px;
+        margin: 0 16px 0;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .header {
+        max-width: 142px;
+    }
+
+}

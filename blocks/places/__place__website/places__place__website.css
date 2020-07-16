@@ -1,0 +1,23 @@
+.places__place__website {
+    max-width: 456px;
+    min-height: 22px;
+    margin: 0;
+    padding: 0;
+    align-self: end;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .places__place__website {
+        max-width: 456px;
+    }
+}
+
+
+@media screen and (max-width: 730px) {
+
+    .places__place__website {
+        display: none;
+    }
+
+}
