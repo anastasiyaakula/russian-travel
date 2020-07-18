@@ -1,9 +1,9 @@
-@import url(../places/__paragraph-container/places__place__paragraph-container.css);
-@import url(../places/__place__image/places__place__image.css);
-@import url(../places/__place__paragraph/places__place__paragraph.css);
-@import url(../places/__place__title/places__place__title.css);
-@import url(../places/__place__url/places__place__url.css);
-@import url(../places/__place__website/places__place__website.css);
+@import url(../places/__paragraph-container/places__paragraph-container.css);
+@import url(../places/__image/places__image.css);
+@import url(../places/__paragraph/places__paragraph.css);
+@import url(../places/__title/places__title.css);
+@import url(../places/__url/places__url.css);
+@import url(../places/__website/places__website.css);
 @import url(../places/__place/places__place.css);
 
 .places {
@@ -15,23 +15,42 @@
     gap: 80px;
     color: #FFFFFF;
 
+
 }
 
 @media screen and (max-width: 1024px) {
 
     .places {
         max-width: 928px;
+
     }
 
 }
 
+@media screen and (max-width: 970px) {
 
+    .places {
+        max-width: 720px;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
 
     .places {
         max-width: 720px;
         gap: 72px;
+        margin: 88px auto 0;
+    }
+
+}
+
+
+@media screen and (max-width: 730px) {
+
+    .places {
+        max-width: 375px;
+        gap: 48px;
     }
 
 }
@@ -41,6 +60,7 @@
 
     .places {
         max-width: 320px;
+        margin: 64px 0 0;
     }
 
 }

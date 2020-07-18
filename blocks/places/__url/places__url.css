@@ -1,7 +1,11 @@
-.places__place__url-capital {
+@import url(../__url/__url-capital/places__url-capital.css);
+
+
+
+/*.places__url-capital {
     max-width: 456px;
-    height: 12px;
-    font-family: Inter;
+    /*height: 12px;
+    font-family: Inter, 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -10,26 +14,18 @@
     color: #AAAAAA;
     letter-spacing: 0.2em;
     color: #FFFFFF;
-
-
     align-self: end;
-}
+}*/
 
 .places__place__url {
-
     max-width: 456px;
-    height: 22px;
+    /*height: 22px*/
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-
-
     text-decoration-line: underline;
-
     color: #FFFFFF;
-
-
     align-self: end;
 }

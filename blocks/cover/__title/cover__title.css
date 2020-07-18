@@ -1,42 +1,28 @@
 .cover__title {
     max-width: 560px;
-    min-height: 152px;
-
-
-    font-family: Inter;
+    /*min-height: 152px;*/
+    font-family: Inter, 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    /* or 106% */
-
     text-align: center;
-
     color: #FFFFFF;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    top: 245px;
-    color: #FFFDFD;
+    z-index: 1;
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    left: 312px;
+    /* margin: 245px auto 343px;*/
 
 }
 
-@media screen and (max-width: 1280px) {
-
-    .cover__title {
-        max-width: 560px;
-        min-height: 152px;
-        top: 274px;
-    }
-
-}
 
 @media screen and (max-width: 1024px) {
 
     .cover__title {
-        max-width: 560px;
-        min-height: 152px;
-        top: 211px;
+        top: 150px;
+        left: 232px;
     }
 
 }
@@ -45,18 +31,26 @@
 
     .cover__title {
         max-width: 560px;
-        min-height: 152px;
-        top: 165px;
-    }
+        top: 100px;
+        left: 104px;
+        font-size: 72px;
+        line-height: 76px;
 
+    }
 }
 
 @media screen and (max-width: 320px) {
 
     .cover__title {
         max-width: 288px;
-        min-height: 70px;
-        top: 64px;
+        left: 16px;
+        top: 20px;
+        left: 16px;
+        line-height: 35px;
+        font-weight: 900;
+        font-size: 32px;
+        text-align: center;
+
     }
 
 }

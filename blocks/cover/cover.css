@@ -1,46 +1,105 @@
 @import url(../cover/__title/cover__title.css);
 @import url(../cover/__subtitle/cover__subtitle.css);
+/*
 @import url(../cover/__overlay/cover__overlay.css);
-@import url(../cover/__link/cover__link.css);
+@import url(../cover/__link/cover__link.css);*/
 
 
 .cover {
     max-width: 1184px;
     min-height: 740px;
     margin: 92px auto 0;
-    background-origin: border-box;
     position: relative;
+    background: #2A2C2F;
+    display: flex;
+    color: #000000;
+    display: block;
+    text-decoration: none;
     color: #FFFFFF;
+    background-image: url(../../images/cover-trains.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: fill;
+    opacity: 0.8;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 1280px) {
+.cover:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 200ms ease-in-out;
+}
+
+.cover:hover:before {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+
+@media screen and (max-width: 1024px) {
 
     .cover {
-        max-width: 1184px;
-        min-height: 740px;
+        max-width: 1024px;
+        min-height: 640px;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 768px) {
 
         .cover {
-            max-width: 1024px;
-            min-height: 640px;
+            max-width: 768px;
+            min-height: 480px;
         }
 
-        @media screen and (max-width: 768px) {
+    }
 
-            .cover {
-                max-width: 768px;
-                min-height: 480px;
-            }
+    @media screen and (max-width: 687px) {
 
+        .cover {
+            min-height: 425px;
         }
 
-        @media screen and (max-width: 320px) {
+    }
 
-            .cover {
-                max-width: 320px;
-                min-height: 200px;
-            }
+    @media screen and (max-width: 580px) {
 
+        .cover {
+            min-height: 375px;
         }
+
+    }
+
+    @media screen and (max-width: 375px) {
+
+        .cover {
+            max-width: 375px;
+            min-height: 272px;
+        }
+
+    }
+
+    @media screen and (max-width: 360px) {
+
+        .cover {
+            min-height: 240px;
+        }
+
+    }
+
+    @media screen and (max-width: 320px) {
+
+        .cover {
+            max-width: 320px;
+            min-height: 200px;
+        }
+
+    }
