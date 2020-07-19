@@ -21,10 +21,25 @@
     }
 }
 
+@media screen and (max-width: 736px) {
+
+    .photo-grid__item {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .photo-grid__item {
+        height: 220px;
+    }
+}
+
 @media screen and (max-width: 320px) {
 
     .photo-grid__pic {
 
-        height: 116px;
+        height: 216px;
+        /*116px;*/
     }
 }
