@@ -12,6 +12,8 @@
     list-style-type: none;
 
 }
+
+/*Удалила дублирование стилей в медиазапросах*/
 /*
 .intro__list-phrase {
 

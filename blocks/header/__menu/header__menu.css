@@ -5,11 +5,13 @@
     align-items: flex-end;
     list-style-type: none;
 }
+
+/*Удалила дублирование стилей в медиазапросах*/
 /*
 .header__menu-item {
     max-width: 30px;
     /*min-height: 28px;*/
-    /*line-height: 28px;
+/*line-height: 28px;
     font-size: 24px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     sans-serif;
@@ -20,11 +22,10 @@
 
 media screen and (max-width: 320px) {
 
-    .header__menu-item {
-        max-width: 2px;
-        line-height: 17px;
-        font-size: 18px;
-        margin-right: 16px;
+    .header__menu {
+
+        margin-top: 14px;
+
     }
 
 }

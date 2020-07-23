@@ -8,7 +8,10 @@
     font-style: normal;
     font-weight: normal;
     margin-right: 18px;
+
 }
+
+/*Удалила дублирование стилей в медиазапросах*/
 
 @media screen and (max-width: 375px) {
 
@@ -17,6 +20,7 @@
         line-height: 17px;
         font-size: 18px;
         margin-right: 16px;
+        margin-bottom: 14px;
     }
 
 }

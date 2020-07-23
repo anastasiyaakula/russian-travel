@@ -11,12 +11,14 @@
     /*margin-top: -5px;*/
 }
 
+/*Удалила дублирование стилей в медиазапросах*/
+
 @media screen and (max-width: 1024px) {
 
     .places__paragraph {
         max-width: 456px;
         /*min-height: 180px;*/
-        margin: 0 0 24px 0;
+        /*margin: 0 0 24px 0;*/
     }
 
 }
@@ -38,7 +40,7 @@
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
-        margin: 0 auto 24px;
+        margin: 0 auto 0;
 
     }
 
@@ -48,8 +50,8 @@
 
     .place__paragraph {
         max-width: 340px;
-        font-size: 16px;
-        line-height: 26px;
+        /*font-size: 16px;
+        line-height: 26px;*/
         margin: 0 auto 24px;
     }
 
@@ -58,9 +60,9 @@
 @media screen and (max-width: 374px) {
 
     .place__paragraph {
-        /*max-width: 288px;*/
+        /*max-width: 288px;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 26px;*/
         margin: 0 auto 24px;
     }
 
@@ -69,10 +71,10 @@
 @media screen and (max-width: 320px) {
 
     .places__paragraph {
-        max-width: 288px;
+        /*max-width: 288px;
         font-size: 16px;
-        line-height: 26px;
-        margin: 32px auto 0;
+        line-height: 26px;*/
+        margin: 0 auto 0;
     }
 
 }

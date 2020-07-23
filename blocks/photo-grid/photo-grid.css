@@ -12,15 +12,16 @@
     color: #FFFFFF;
 }
 
+/*Удалила дублирование стилей в медиазапросах*/
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
         max-width: 928px;
         /*min-height: 942px;*/
-        /*margin: 92px auto 0;*/
+        margin-top: 105px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        gap: 16px;
+        /*gap: 16px;*/
     }
 }
 
@@ -50,8 +51,8 @@
         max-width: 288px;
         /*min-height: 2724px;*/
         gap: 12px;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 1fr);
+        /*grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);*/
 
 
     }

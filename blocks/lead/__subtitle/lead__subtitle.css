@@ -11,6 +11,7 @@
 }
 
 
+/*Удалила дублирование стилей в медиазапросах*/
 
 @media screen and (max-width: 768px) {
 
@@ -31,7 +32,7 @@
 
 
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 330px) {
 
         .lead__subtitle {
             max-width: 288px;

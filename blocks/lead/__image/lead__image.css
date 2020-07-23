@@ -6,26 +6,28 @@
     object-fit: cover;
 }
 
+/*Удалила дублирование стилей в медиазапросах*/
+
 @media screen and (max-width: 1240px) {
 
     max-width: 928px;
     min-height: 580px;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 @media screen and (max-width: 768px) {
     max-width: 768px;
     min-height: 480px;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
 
     .lead__image {
         max-width: 320px;
         min-height: 200px;
-        object-fit: cover;
+        /*object-fit: cover;*/
     }
 }

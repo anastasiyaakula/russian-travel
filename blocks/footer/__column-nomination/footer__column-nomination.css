@@ -1,8 +1,6 @@
-
-
 .footer__column-nomination {
     min-width: 106px;
-    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -11,31 +9,31 @@
 }
 
 
+/*Удалила дублирование стилей в медиазапросах*/
 
-/*@media screen and (max-width: 768px)*/
 @media screen and (max-width: 1023px) {
-   
+
     .footer__column-nomination {
         min-width: 40px;
         font-size: 18px;
         line-height: 27px;
     }
-    
+
 }
 
-/*@media screen and (max-width: 375px)*/
 @media screen and (max-width: 720px) {
 
     .footer__column-nomination {
         min-width: 50px;
-        font-size: 18px;
+        /*font-size: 18px;*/
         line-height: 41px;
         margin-bottom: 32px;
     }
 }
 
+@media screen and (max-width: 330px) {
 
-
-
-
-
+    .footer__column-nomination {
+        font-size: 24px;
+        line-height: 24px;
+    }

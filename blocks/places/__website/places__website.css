@@ -6,13 +6,14 @@
     align-self: end;
     list-style-type: none;
 }
-
+/*Удалила дублирование стилей в медиазапросах*/
+/*
 @media screen and (max-width: 1024px) {
 
     .places__website {
         max-width: 456px;
     }
-}
+}*/
 
 
 @media screen and (max-width: 730px) {

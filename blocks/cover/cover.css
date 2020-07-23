@@ -1,18 +1,14 @@
-@import url(../cover/__title/cover__title.css);
 @import url(../cover/__subtitle/cover__subtitle.css);
-/*
-@import url(../cover/__overlay/cover__overlay.css);
-@import url(../cover/__link/cover__link.css);*/
-
+@import url(../cover/__title/cover__title.css);
 
 .cover {
     max-width: 1184px;
     min-height: 740px;
-    margin: 92px auto 0;
-    position: relative;
+    margin: 0 auto 0;
+    /*left: 48px;*/
     background: #2A2C2F;
     display: flex;
-    color: #000000;
+    position: relative;
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -20,8 +16,12 @@
     background-position: center;
     background-size: cover;
     object-fit: fill;
-    opacity: 0.8;
     box-sizing: border-box;
+    z-index: 0;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
 }
 
 .cover:before {
@@ -34,23 +34,25 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 1);
-    opacity: 0.3;
+    background: #2A2C2F;
     z-index: -1;
+    opacity: 0.3;
     transition: opacity 200ms ease-in-out;
 }
 
 .cover:hover:before {
     opacity: 0.8;
-    transition: opacity 0.3s;
+    /*transition: opacity 0.3s;*/
 }
 
+/*Удалила дублирование стилей в медиазапросах*/
 
 @media screen and (max-width: 1024px) {
 
     .cover {
         max-width: 1024px;
         min-height: 640px;
+        margin-top: 92px;
     }
 
     @media screen and (max-width: 768px) {
@@ -81,7 +83,7 @@
     @media screen and (max-width: 375px) {
 
         .cover {
-            max-width: 375px;
+            /*max-width: 375px;*/
             min-height: 272px;
         }
 

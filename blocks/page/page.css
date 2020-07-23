@@ -1,9 +1,4 @@
 .page {
+    max-width: 1280px;
     background-color: #2A2C30;
 }
-
-/*
-
-ul {
-    list-style-type: none;
-}*/

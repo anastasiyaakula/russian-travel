@@ -10,12 +10,14 @@
     color: #FFFFFF;
 }
 
+/*Удалила дублирование стилей в медиазапросах*/
+
 @media screen and (max-width: 1024px) {
 
     .lead {
         max-width: 928px;
-        min-height: 962px;
-        margin: 48px auto 0;
+        /*min-height: 962px;*/
+        margin: 56px auto 0;
     }
 
 }
@@ -24,8 +26,8 @@
 
     .lead {
         max-width: 768px;
-        min-height: 862px;
-        margin: 48px 0 0;
+        /*min-height: 862px;*/
+        margin: 48px 0 50px;
     }
 
 }
@@ -41,11 +43,11 @@
 
 }*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
 
     .lead {
         max-width: 320px;
-        min-height: 426px;
+        /*min-height: 426px;*/
         margin: 48px 0 0;
     }
 
