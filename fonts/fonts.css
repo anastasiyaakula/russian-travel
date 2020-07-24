@@ -43,20 +43,20 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+}
 
 
 
-    @font-face {
-        src: url(./Inter/Inter-Black.woff) format('woff'),
-            url(./Inter/Inter-Black.woff2) format('woff2'),
-            url(./Inter/Inter-Black.otf) format('otf');
-        font-family: 'Inter-Black';
-        font-weight: 900;
-        font-style: normal;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-        -moz-text-size-adjust: 100%;
-    }
+@font-face {
+    src: url(./Inter/Inter-Black.woff) format('woff'),
+        url(./Inter/Inter-Black.woff2) format('woff2'),
+        url(./Inter/Inter-Black.otf) format('otf');
+    font-family: 'Inter-Black';
+    font-weight: 900;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%
 }

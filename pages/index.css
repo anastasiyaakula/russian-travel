@@ -9,3 +9,9 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
+/*
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}*/
