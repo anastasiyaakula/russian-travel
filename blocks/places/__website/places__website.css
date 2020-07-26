@@ -6,6 +6,7 @@
     align-self: end;
     list-style-type: none;
 }
+
 /*Удалила дублирование стилей в медиазапросах*/
 /*
 @media screen and (max-width: 1024px) {

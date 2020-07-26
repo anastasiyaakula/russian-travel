@@ -14,12 +14,30 @@
 
 }
 
+@media screen and (max-width: 970px) {
+
+    .places__image {
+        max-width: 360px;
+        height: 360px;
+    }
+
+}
+
 
 @media screen and (max-width: 768px) {
 
     .places__image {
-        max-width: 100%;
+        max-width: 340px;
         height: 340px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    .places__image {
+        max-width: 370px;
+        height: 370px;
     }
 
 }
@@ -27,7 +45,7 @@
 @media screen and (max-width: 320px) {
 
     .places__image {
-        max-width: 100%;
+        max-width: 320px;
         height: 320px;
         margin: 0 auto;
     }
