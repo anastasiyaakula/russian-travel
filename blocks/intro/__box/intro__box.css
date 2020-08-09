@@ -1,12 +1,13 @@
-/*.intro__box {
-    /*margin-left: 148px;*/
-/*margin-right: 442px;*/
-/*max-width: 690px;*/
+.intro__box {
+    max-width: 690px;
+    margin: 0 300px 0 0;
+}
 
-/*display: flex;
-    flex-direction: column;
-    justify-content: flex-start;*/
-/*margin: 0 422px 0 148px;*/
+@media screen and (max-width: 768px) {
 
-/*min-height: 428px;
-}*/
+    .intro__box {
+        max-width: 720px;
+        margin: 0;
+    }
+
+}

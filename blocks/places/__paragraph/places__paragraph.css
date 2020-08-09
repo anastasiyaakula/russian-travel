@@ -1,6 +1,6 @@
 .places__paragraph {
     max-width: 484px;
-    /*min-height: 150px;*/
+
     font-family: Inter, 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -8,7 +8,7 @@
     line-height: 30px;
     margin: 0 0 24px 0;
     color: #FFFFFF;
-    /*margin-top: -5px;*/
+
 }
 
 /*Удалила дублирование стилей в медиазапросах*/
@@ -17,7 +17,6 @@
 
     .places__paragraph {
         max-width: 456px;
-
         margin: 0;
     }
 
@@ -48,21 +47,8 @@
 
     .place__paragraph {
         max-width: 340px;
-        /*font-size: 16px;
-        line-height: 26px;*/
         margin: 0 auto 24px;
 
-    }
-
-}
-
-@media screen and (max-width: 374px) {
-
-    .place__paragraph {
-        /*max-width: 288px;
-        font-size: 16px;
-        line-height: 26px;*/
-        margin: 0 auto 24px;
     }
 
 }
@@ -70,9 +56,6 @@
 @media screen and (max-width: 320px) {
 
     .places__paragraph {
-        /*max-width: 288px;
-        font-size: 16px;
-        line-height: 26px;*/
         margin: 0 16px 0;
     }
 

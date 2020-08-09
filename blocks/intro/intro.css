@@ -7,12 +7,10 @@
 
 .intro {
 
-    max-width: 690px;
-    margin: 114px 440px 0 148px;
-    /*min-height: 428px;*/
-    /* margin: 84px 0 220px;*/
+    max-width: 984px;
+    margin: 114px auto 0;
     color: #FFFFFF;
-
+   
 
 }
 
@@ -21,31 +19,17 @@
 @media screen and (max-width: 1024px) {
 
     .intro {
-        /*max-width: 690px;
-        /*min-height: 428px;*/
         margin: 114px 48px 0;
     }
 
 }
-
-/*
-@media screen and (max-width: 900px) {
-
-    .intro {
-        max-width: 720px;
-        /*min-height: 428px;
-        margin: 0 auto 0;
-    }
-
-}*/
-
 
 @media screen and (max-width: 768px) {
 
     .intro {
         max-width: 720px;
         /*min-height: 428px;*/
-        margin: 120px 24px 0 24px;
+        margin: 110px 24px 0 24px;
     }
 
 }
@@ -64,8 +48,7 @@
 
     .intro {
         max-width: 330px;
-        /*min-height: 752px;*/
-        /*margin: 33px 10px 0;*/
+
     }
 
 }

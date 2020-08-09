@@ -7,24 +7,13 @@
 }
 
 /*Удалила дублирование стилей в медиазапросах*/
-/*
-.header__menu-item {
-    max-width: 30px;
-    /*min-height: 28px;*/
-/*line-height: 28px;
-    font-size: 24px;
-    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-    sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    margin-right: 18px;
-}
+
 
 media screen and (max-width: 320px) {
 
     .header__menu {
 
-        margin-top: 14px;
+        margin-top: 16px;
 
     }
 

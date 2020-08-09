@@ -12,14 +12,3 @@
     list-style-type: none;
 
 }
-
-/*Удалила дублирование стилей в медиазапросах*/
-/*
-.intro__list-phrase {
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
-}
