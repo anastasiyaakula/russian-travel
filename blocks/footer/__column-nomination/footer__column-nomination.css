@@ -21,10 +21,12 @@
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 770px) {
 
     .footer__column-nomination {
         min-width: 50px;
+        font-size: 16px;
+        line-height: 18px;
         /*font-size: 18px;*/
         line-height: 41px;
         margin-bottom: 32px;
@@ -37,3 +39,4 @@
         font-size: 24px;
         line-height: 24px;
     }
+}
