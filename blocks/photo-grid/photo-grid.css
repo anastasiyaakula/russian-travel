@@ -13,28 +13,29 @@
 
 /*Удалила дублирование стилей в медиазапросах*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
     .photo-grid {
         max-width: 928px;
-        margin-top: 105px;
+        margin: 105px auto 0;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .photo-grid {
         max-width: 720px;
-        margin: 88px auto;
+        margin: 88px auto 0;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 740px) {
     .photo-grid {
         max-width: 330px;
         gap: 15px;
+        margin: 64px auto 0;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
 

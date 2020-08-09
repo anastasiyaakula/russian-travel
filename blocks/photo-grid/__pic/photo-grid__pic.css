@@ -5,7 +5,7 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1250px) {
 
     .photo-grid__pic {
         height: 225px;
@@ -15,7 +15,7 @@
 
 /*Удалила дублирование стилей в медиазапросах*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
 
     .photo-grid__pic {
         height: 264px;
@@ -41,6 +41,6 @@
     .photo-grid__pic {
 
         height: 216px;
-        
+
     }
 }
