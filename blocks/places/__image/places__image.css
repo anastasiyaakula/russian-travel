@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 730px) {
 
     .places__image {
         max-width: 340px;
@@ -33,16 +33,7 @@
 
 }
 
-@media screen and (max-width: 370px) {
-
-    .places__image {
-        max-width: 370px;
-        height: 370px;
-    }
-
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 374px) {
 
     .places__image {
         max-width: 320px;
