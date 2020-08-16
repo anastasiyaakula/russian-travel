@@ -4,8 +4,7 @@
 
 .places__place__url {
     max-width: 456px;
-    /*height: 22px*/
-    font-family: ''Inter'', ‘Arial’, sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
