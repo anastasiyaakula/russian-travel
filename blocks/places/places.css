@@ -5,6 +5,7 @@
 @import url(../places/__url/places__url.css);
 @import url(../places/__website/places__website.css);
 @import url(../places/__place/places__place.css);
+@import url(../places/__url-capital/places__url-capital.css);
 
 .places {
     max-width: 984px;

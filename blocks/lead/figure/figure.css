@@ -1,20 +1,20 @@
-.lead__image {
-    margin: 64px auto 0;
-    max-width: 100%;
-    object-fit: cover;
+figure {
+
+    margin: 0 auto;
+    position: relative;
+
 }
 
-/*Удалила дублирование стилей в медиазапросах
 
 @media screen and (max-width: 1240px) {
-    .lead__image {
+    figure {
         max-width: 928px;
 
     }
 }
 
 @media screen and (max-width: 768px) {
-    .lead__image {
+    figure {
         max-width: 768px;
 
     }
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 330px) {
 
-    .lead__image {
+    figure {
         max-width: 320px;
 
     }

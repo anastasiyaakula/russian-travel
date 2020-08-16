@@ -1,25 +1,24 @@
 @import url(../intro/__title/intro__title.css);
 @import url(../intro/__text/intro__text.css);
 @import url(../intro/__list/intro__list.css);
-@import url(../intro/__box/intro__box.css);
 @import url(../intro/__list-phrase/intro__list-phrase.css);
-@import url(../intro/__list__span/intro__list__span.css);
+@import url(../intro/__span/intro__span.css);
+
 
 .intro {
 
     max-width: 984px;
-    margin: 114px auto 0;
+    margin: 92px auto 0;
     color: #FFFFFF;
-   
 
 }
 
-/*Удалила дублирование стилей в медиазапросах*/
 
 @media screen and (max-width: 1024px) {
 
     .intro {
-        margin: 114px 48px 0;
+        max-width: 928px;
+        margin: 88px auto 0;
     }
 
 }
@@ -28,37 +27,15 @@
 
     .intro {
         max-width: 720px;
-        /*min-height: 428px;*/
-        margin: 110px 24px 0 24px;
     }
 
 }
 
-@media screen and (max-width: 425px) {
-
-    .intro {
-        max-width: 400px;
-        /*min-height: 650px;*/
-        margin: 33px 10px 0;
-    }
-
-}
-
-@media screen and (max-width: 375px) {
-
-    .intro {
-        max-width: 330px;
-
-    }
-
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
 
     .intro {
         max-width: 288px;
-        /*min-height: 752px;*/
-        margin: 33px auto 0;
+        margin: 64px auto 0;
     }
 
 }

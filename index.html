@@ -34,8 +34,10 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках &nbsp;новостей, а здесь.
         </p>
-        <img class="lead__image" src="images/lead-polka.jpg" alt="По России в поезде" />
-        <figure class="lead__caption">ваша полка — верхняя</figure>
+        <figure>
+          <img class="lead__image" src="images/lead-polka.jpg" alt="По России в поезде" />
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <!--intro-->
       <section class="intro">
@@ -55,21 +57,21 @@
           </p>
           <ul class="intro__list">
             <li class="intro__list-phrase">
-              Часовых поясов <span class="intro__list__span">11</span>
+              Часовых поясов <span class="intro__span">11</span>
             </li>
             <li class="intro__list-phrase">
               Объектов природного наследия ЮНЕСКО
-              <span class="intro__list__span">12</span>
+              <span class="intro__span">12</span>
             </li>
             <li class="intro__list-phrase">
               Объектов культурного наследия ЮНЕСКО
-              <span class="intro__list__span">16</span>
+              <span class="intro__span">16</span>
             </li>
             <li class="intro__list-phrase">
-              Природных заповедников <span class="intro__list__span">15</span>
+              Природных заповедников <span class="intro__span">15</span>
             </li>
             <li class="intro__list-phrase">
-              Аэропортов <span class="intro__list__span">241</span>
+              Аэропортов <span class="intro__span">241</span>
             </li>
           </ul>
         </div>
@@ -93,12 +95,12 @@
       <section class="places">
         <article class="places__place">
           <h2 class="places__title">Куршская коса</h2>
-          <ul class="places__website">
-            <li class="places__url-capital">URL</li>
-            <li class="places__place__url">
+          <div class="places__website">
+            <h5 class="places__url-capital">URL</h5>
+            <h5 class="places__url">
               <a href="#" class="places__url-link link"> park-kosa.ru</a>
-            </li>
-          </ul>
+            </h5>
+          </div>
           <img class="places__image" src="images/place-kosa.jpg" alt="Куршкая Коса." />
           <div class="places__paragraph-container">
             <p class="places__paragraph">
@@ -119,13 +121,13 @@
         </article>
         <article class="places__place">
           <h2 class="places__title">Кольский</h2>
-          <ul class="places__website">
-            <li class="places__url-capital">URL</li>
-            <li class="places__place__url">
+          <div class="places__website">
+            <h5 class="places__url-capital">URL</h5>
+            <h5 class="places__url">
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__url-link link">
                 National Geographic</a>
-            </li>
-          </ul>
+            </h5>
+          </div>
           <img class="places__image" src="images/place-kolsky.jpg" alt="Кольский полуостров." />
           <div class="places__paragraph-container">
             <p class="places__paragraph">
@@ -146,14 +148,14 @@
         </article>
         <article class="places__place">
           <h2 class="places__title">Алтай</h2>
-          <ul class="places__website">
-            <li class="places__url-capital">URL</li>
-            <li class="places__place__url">
+          <div class="places__website">
+            <h5 class="places__url-capital">URL</h5>
+            <h5 class="places__url">
               <a href="
                 https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__url-link link">
                 Facebook</a>
-            </li>
-          </ul>
+            </h5>
+          </div>
           <img class="places__image" src="images/place-altai.jpg" alt="Алтай." />
           <div class="places__paragraph-container">
             <p class="places__paragraph">
@@ -174,14 +176,14 @@
         </article>
         <article class="places__place">
           <h2 class="places__title">Зимний Байкал</h2>
-          <ul class="places__website">
-            <li class="places__url-capital">URL</li>
-            <li class="places__place__url">
+          <div class="places__website">
+            <h5 class="places__url-capital">URL</h5>
+            <h5 class="places__url">
               <a href="
                     https://vk.com/baikalmile" class="places__url-link link">
                 https://vk.com/baikalmile</a>
-            </li>
-          </ul>
+            </h5>
+          </div>
           <img class="places__image" src="images/place-winter-baikal.jpg" alt="Зимний Байкал." />
           <div class="places__paragraph-container">
             <p class="places__paragraph">
@@ -201,12 +203,12 @@
         </article>
         <article class="places__place">
           <h2 class="places__title">Карелия</h2>
-          <ul class="places__website">
-            <li class="places__url-capital">URL</li>
-            <li class="places__place__url">
+          <div class="places__website">
+            <h5 class="places__url-capital">URL</h5>
+            <h5 class="places__url">
               <a href="http://vodlozero.ru" class="places__url-link link">http://vodlozero.ru</a>
-            </li>
-          </ul>
+            </h5>
+          </div>
           <img class="places__image" src="images/place-karelia.jpg" alt="Карелия." />
           <div class="places__paragraph-container">
             <p class="places__paragraph">
@@ -224,13 +226,15 @@
         </article>
       </section>
       <!--cover-->
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
-        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе и iframes — путешествие от
-          столицы до Байкала на электричках.
-        </p>
-      </a>
+      <div class="cover">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе и iframes — путешествие от
+            столицы до Байкала на электричках.
+          </p>
+        </a>
+      </div>
     </main>
     <!--footer-->
     <footer class="footer">

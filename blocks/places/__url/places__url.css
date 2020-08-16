@@ -1,8 +1,4 @@
-@import url(../__url/__url-capital/places__url-capital.css);
-
-
-
-.places__place__url {
+.places__url {
     max-width: 456px;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
@@ -12,4 +8,6 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     align-self: end;
+
+    margin: 0;
 }

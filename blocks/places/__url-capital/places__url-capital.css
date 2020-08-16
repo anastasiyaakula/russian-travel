@@ -5,9 +5,11 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
-    margin: 0 0 12px;
+    margin: 0 0 12px 0;
     color: #AAAAAA;
     letter-spacing: 0.2em;
-    color: #FFFFFF;
+    color: #AAAAAA;
     align-self: end;
+    text-transform: uppercase;
+   
 }

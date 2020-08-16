@@ -1,20 +1,14 @@
 .places__website {
     max-width: 456px;
-    /*min-height: 22px;*/
     margin: 0;
     padding: 0;
-    align-self: end;
-    list-style-type: none;
+    /*align-self: end;
+    list-style-type: none;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
 }
-
-/*Удалила дублирование стилей в медиазапросах*/
-/*
-@media screen and (max-width: 1024px) {
-
-    .places__website {
-        max-width: 456px;
-    }
-}*/
 
 
 @media screen and (max-width: 730px) {
